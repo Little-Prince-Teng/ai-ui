@@ -1,0 +1,11 @@
+{
+  "name": "@ai-ui/components",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  }
+}

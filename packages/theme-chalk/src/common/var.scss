@@ -1,0 +1,166 @@
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #2e57e5 !default;
+$--color-black: #000000 !default;
+// TODO 新增基础色
+$--color-B0: #2e4cb2 !default;
+$--color-B1: #2e57e5 !default; // 蓝色
+$--color-B2: #466beb !default; // 蓝色
+$--color-B3: #6080f0 !default; // 蓝色
+$--color-B4: #879ff5 !default; // 蓝色
+$--color-B5: #afc0fa !default; // 蓝色
+$--color-B6: #d6dfff !default; // 蓝色
+$--color-B7: #f2f5ff !default; // 蓝色
+$--color-B: $--color-B1 !default;
+
+$--color-R0: #cc3d55 !default; // 红色
+$--color-R1: #e5455f !default; // 红色
+$--color-R2: #eb5e75 !default; // 红色
+$--color-R3: #f0788b !default; // 红色
+$--color-R4: #f593a2 !default; // 红色
+$--color-R5: #fab9c3 !default; // 红色
+$--color-R6: #ffd6dd !default; // 红色
+$--color-R7: #fff2f4 !default; // 红色
+$--color-R: $--color-R1 !default; // 红色
+
+$--color-O0: #e57709 !default; // 橙色
+$--color-O1: #f58718 !default; // 橙色
+$--color-O2: #f5983b !default; // 橙色
+$--color-O3: #f7ad63 !default; // 橙色
+$--color-O4: #f7bc81 !default; // 橙色
+$--color-O5: #fad2aa !default; // 橙色
+$--color-O6: #fce8d4 !default; // 橙色
+$--color-O7: #fff2e5 !default; // 橙色
+$--color-O: $--color-O1 !default; // 橙色
+
+$--color-G0: #31a37d !default; // 绿色
+$--color-G1: #12b881 !default;
+$--color-G2: #3dcc9d !default; // 绿色
+$--color-G3: #60dbb3 !default; // 绿色
+$--color-G4: #8ae5c7 !default; // 绿色
+$--color-G5: #a8f0d8 !default; // 绿色
+$--color-G6: #c8fae9 !default; // 绿色
+$--color-G7: #e5fff7 !default; // 绿色
+$--color-G: $--color-G1 !default;
+
+$--color-T0: #1298b2 !default; // 蓝绿
+$--color-T1: #00abcd !default;
+$--color-T2: #42c2db !default; // 蓝绿
+$--color-T3: #65d0e5 !default; // 蓝绿
+$--color-T4: #8ee4f5 !default; // 蓝绿
+$--color-T5: #adf2ff !default; // 蓝绿
+$--color-T6: #ccf6ff !default; // 蓝绿
+$--color-T7: #e5fbff !default; // 蓝绿
+$--color-T: $--color-T1 !default;
+
+$--color-U0: #6060db !default; // 群青
+$--color-U1: #7070ff !default;
+$--color-U2: #8585ff !default; // 群青
+$--color-U3: #9999ff !default; // 群青
+$--color-U4: #b2b2ff !default; // 群青
+$--color-U5: #ccccff !default; // 群青
+$--color-U6: #e5e5ff !default; // 群青
+$--color-U7: #f2f2ff !default; // 群青
+$--color-U: $--color-U1 !default;
+
+$--color-P0: #884ec2 !default; // 紫色
+$--color-P1: #9c53e5 !default;
+$--color-P2: #b075eb !default; // 紫色
+$--color-P3: #c090f0 !default; // 紫色
+$--color-P4: #d0abf5 !default; // 紫色
+$--color-P5: #e1c8fa !default; // 紫色
+$--color-P6: #f2e5ff !default; // 紫色
+$--color-P7: #f9f2ff !default; // 紫色
+$--color-P: $--color-P1 !default;
+
+$--color-N0: $--color-black !default;
+$--color-N1: #1f264d !default;
+$--color-N2: #596080 !default;
+$--color-N3: #898ca3 !default;
+$--color-N4: #b8bccc !default;
+$--color-N5: #d8d9e5 !default;
+$--color-N6: #e6e9f2 !default;
+$--color-N7: #f2f5fa !default;
+$--color-N8: #f7f9fc !default;
+$--color-N9: #ffffff !default;
+$--color-N: $--color-N1 !default;
+// TODO 修改成功、警告等颜色
+/// color|1|Functional Color|1
+$--border-color-base: #dcdfe6 !default;
+$--color-success: $--color-G !default;
+/// color|1|Functional Color|1
+$--color-warning: $--color-O !default;
+/// color|1|Functional Color|1
+$--color-danger: $--color-R !default;
+/// color|1|Functional Color|1
+$--color-info: #909399 !default;
+
+/* Border
+-------------------------- */
+$--border-radius-small: 2px !default;
+$--border-width-base: 1px !default;
+$--border-style-dashed: dashed !default;
+$--border-dashed: $--border-width-base $--border-style-dashed $--border-color-base !default;
+// TODO 新增1、2、3级阴影
+$--box-shadow-1: 0px 0px 1px rgba(31, 38, 76, 0.16), 0px 2px 5px rgba(31, 38, 76, 0.03),
+    0px 3px 8px rgba(31, 38, 76, 0.04) !default;
+$--box-shadow-2: 0px 0px 1px rgba(31, 38, 76, 0.16), 0px 4px 12px rgba(31, 38, 76, 0.06),
+    0px 8px 20px -8px rgba(31, 38, 76, 0.06) !default;
+$--box-shadow-3: 0px 0px 1px rgba(31, 38, 76, 0.16), 0px 8px 24px rgba(31, 38, 76, 0.04),
+    0px 12px 32px -12px rgba(31, 38, 76, 0.04) !default;
+
+/* Typography
+-------------------------- */
+// TODO 新增基础字体
+$--font-size-base: 14px !default;
+$--font-H1: 600 24px/34px auto !default;
+$--font-H2: 600 18px/24px auto !default;
+$--font-H3: 600 16px/22px auto !default;
+$--font-H4: 500 14px/20px auto !default;
+$--font-base-ui: 400 14px/20px auto !default;
+$--font-base-paragraph: 400 14px/20px auto !default;
+$--font-small-ui: 400 12px/16px auto !default;
+$--font-smal-paragraph: 400 12px/16 auto !default;
+
+/* Button
+-------------------------- */
+/// borderRadius||Border|2
+$--button-border-radius: 2px !default;
+/// padding||Spacing|3
+$--button-padding-vertical: 8px !default;
+/// padding||Spacing|3
+$--button-small-padding-vertical: 7px !default;
+/* Link
+--------------------------*/
+/// color||Color|0
+$--link-help-font-color: $--color-U !default;
+
+// TODO 增加large类型
+/// fontSize||Font|1
+$--button-large-font-size: $--font-size-base !default;
+/// borderRadius||Border|2
+$--button-large-border-radius: $--border-radius-small !default;
+/// padding||Spacing|3
+$--button-large-padding-vertical: 12px !default;
+/// padding||Spacing|3
+$--button-large-padding-horizontal: 20px !default;
+/* Radio
+-------------------------- */
+$--radio-input-height: 16px !default;
+$--radio-input-width: 16px !default;
+/* Input
+-------------------------- */
+/// height||Other|4
+$--input-width: 120px !default;
+/// height||Other|4
+$--input-height: 32px !default;
+/// fontSize||Font|1
+$--input-large-font-size: 14px !default;
+/// height||Other|4
+$--input-large-height: 40px !default;
+/// fontSize||Font|1
+$--input-small-font-size: 14px !default;
+/// height||Other|4
+$--input-small-height: 24px !default;
+@import './var-element.scss';
