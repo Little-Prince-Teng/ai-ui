@@ -1,0 +1,5 @@
+export const PKG_PREFIX = '@ai-ui'
+export const PKG_NAME = 'ai-ui'
+export const PKG_CAMELCASE_NAME = 'AIUI'
+export const PKG_CAMELCASE_LOCAL_NAME = 'AIUILocale'
+export const PKG_BRAND_NAME = 'AI UI'
