@@ -42,8 +42,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Install dependencies
-        run: pnpm i --frozen-lockfile
+      # - name: Install dependencies
+      #   run: pnpm i --frozen-lockfile
 
       - name: Init Crowdin token
         run: pnpm run docs:crowdin-credentials
