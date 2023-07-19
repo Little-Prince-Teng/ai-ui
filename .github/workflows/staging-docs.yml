@@ -15,7 +15,7 @@ jobs:
     # 指定操作系统
     runs-on: ubuntu-latest
     # 仅针对'ai-ui'存储库运行作业
-    if: ${{ github.repository_owner == 'ai-ui' }}
+    if: ${{ github.repository_owner == 'Little-Prince-Teng' }}
 
     steps:
       - name: Checkout
