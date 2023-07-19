@@ -1,14 +1,19 @@
 {
-  "name": "ai-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@7.3.0",
+  "workspaces": [
+    "packages/*",
+    "play",
+    "docs"
+  ],
   "scripts": {
-    "build:ai-ui": "gulp -f packages/components/script/build/index.ts"
+    "dev": "pnpm -C play dev",
+    "docs:dev": "pnpm run -C docs dev",
+    "docs:build": "pnpm run -C docs build",
+    "docs:serve": "pnpm run -C docs serve",
+    "docs:gen-locale": "pnpm run -C docs gen-locale",
+    "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/gulp": "^4.0.13",
     "@types/node": "^20.3.3",
@@ -25,5 +30,8 @@
     "vite": "^4.3.9",
     "vite-plugin-dts": "^1.4.1",
     "vue": "^3.3.4"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }
