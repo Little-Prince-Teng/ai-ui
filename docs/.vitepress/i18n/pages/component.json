@@ -327,5 +327,334 @@
         }
       ]
     }
+  },
+  "zh-CN": {
+    "basic": {
+      "text": "基本的",
+      "children": [
+        {
+          "link": "/button",
+          "text": "按钮"
+        },
+        {
+          "link": "/border",
+          "text": "Border"
+        },
+        {
+          "link": "/color",
+          "text": "颜色"
+        },
+        {
+          "link": "/container",
+          "text": "Container 布局容器"
+        },
+        {
+          "link": "/icon",
+          "text": "Icon 图标"
+        },
+        {
+          "link": "/layout",
+          "text": "布局"
+        },
+        {
+          "link": "/link",
+          "text": "链接"
+        },
+        {
+          "link": "/text",
+          "text": "文本",
+          "promotion": "2.3.0"
+        },
+        {
+          "link": "/scrollbar",
+          "text": "滚动条"
+        },
+        {
+          "link": "/space",
+          "text": "空间"
+        },
+        {
+          "link": "/typpogy",
+          "text": "图形"
+        }
+      ]
+    },
+    "configuration": {
+      "text": "配置",
+      "children": [
+        {
+          "link": "/config-provider",
+          "text": "配置提供商"
+        }
+      ]
+    },
+    "form": {
+      "text": "形式",
+      "children": [
+        {
+          "link": "/autocomplete",
+          "text": "自动完成"
+        },
+        {
+          "link": "/cascader",
+          "text": "Cascader"
+        },
+        {
+          "link": "/checkbox",
+          "text": "复选框"
+        },
+        {
+          "link": "/color-picker",
+          "text": "颜色选择器"
+        },
+        {
+          "link": "/date-picker",
+          "text": "日期选择器"
+        },
+        {
+          "link": "/datetime-picker",
+          "text": "日期时间选择器"
+        },
+        {
+          "link": "/form",
+          "text": "形式"
+        },
+        {
+          "link": "/input",
+          "text": "Input"
+        },
+        {
+          "link": "/input-number",
+          "text": "Input Number"
+        },
+        {
+          "link": "/radio",
+          "text": "收音机"
+        },
+        {
+          "link": "/rate",
+          "text": "速率"
+        },
+        {
+          "link": "/选择",
+          "text": "选择"
+        },
+        {
+          "link": "/select-v2",
+          "text": "虚拟化选择"
+        },
+        {
+          "link": "/滑块",
+          "text": "滑块"
+        },
+        {
+          "link": "/切换",
+          "text": "交换机"
+        },
+        {
+          "link": "/时间选择器",
+          "text": "时间选择器"
+        },
+        {
+          "link": "/时间选择",
+          "text": "时间选择"
+        },
+        {
+          "link": "/transfer",
+          "text": "转移"
+        },
+        {
+          "link": "/上传",
+          "text": "上传"
+        }
+      ]
+    },
+    "data": {
+      "text": "数据",
+      "children": [
+        {
+          "link": "/头像",
+          "text": "头像"
+        },
+        {
+          "link": "/徽章",
+          "text": "徽章"
+        },
+        {
+          "link": "/日历",
+          "text": "日程表"
+        },
+        {
+          "link": "/卡",
+          "text": "卡"
+        },
+        {
+          "link": "/旋转屏幕",
+          "text": "Carousel"
+        },
+        {
+          "link": "/collar",
+          "text": "收起"
+        },
+        {
+          "link": "/描述",
+          "text": "描述"
+        },
+        {
+          "link": "/为空",
+          "text": "空的"
+        },
+        {
+          "link": "/image",
+          "text": "图片"
+        },
+        {
+          "link": "/无限滚动",
+          "text": "无限卷轴"
+        },
+        {
+          "link": "/分页",
+          "text": "分页"
+        },
+        {
+          "link": "/进度",
+          "text": "进展情况"
+        },
+        {
+          "link": "/结果",
+          "text": "结果"
+        },
+        {
+          "link": "/skeleton",
+          "text": "斯凯莱顿"
+        },
+        {
+          "link": "/table",
+          "text": "表"
+        },
+        {
+          "link": "/table-v2",
+          "text": "虚拟表",
+          "promotion": "2.2.0"
+        },
+        {
+          "link": "/标签",
+          "text": "标签"
+        },
+        {
+          "link": "/时间线",
+          "text": "时间表"
+        },
+        {
+          "link": "/树",
+          "text": "树"
+        },
+        {
+          "link": "/tree-select",
+          "text": "TreeSelect",
+          "promotion": "2.1.8"
+        },
+        {
+          "link": "/tree-v2",
+          "text": "虚拟化树"
+        },
+        {
+          "link": "/统计",
+          "text": "统计",
+          "promotion": "2.2.30"
+        }
+      ]
+    },
+    "navigation": {
+      "text": "Navigation",
+      "children": [
+        {
+          "link": "/affix",
+          "text": "Affix"
+        },
+        {
+          "link": "/backup",
+          "text": "后端"
+        },
+        {
+          "link": "/breadcrumb",
+          "text": "面包屑导航"
+        },
+        {
+          "link": "/download",
+          "text": "下拉列表"
+        },
+        {
+          "link": "/菜单",
+          "text": "菜单"
+        },
+        {
+          "link": "/page-header",
+          "text": "页面标题"
+        },
+        {
+          "link": "/steps",
+          "text": "步骤"
+        },
+        {
+          "link": "/tabs",
+          "text": "Tabs"
+        }
+      ]
+    },
+    "feedback": {
+      "text": "反馈",
+      "children": [
+        {
+          "link": "/提醒",
+          "text": "警告"
+        },
+        {
+          "link": "/对话框",
+          "text": "对话框"
+        },
+        {
+          "link": "/抽屉",
+          "text": "抽屉"
+        },
+        {
+          "link": "/加载",
+          "text": "正在加载"
+        },
+        {
+          "link": "/消息",
+          "text": "留言"
+        },
+        {
+          "link": "/message-box",
+          "text": "消息框"
+        },
+        {
+          "link": "/通知",
+          "text": "通知"
+        },
+        {
+          "link": "/弹出确认",
+          "text": "弹出确认"
+        },
+        {
+          "link": "/popover",
+          "text": "Popover"
+        },
+        {
+          "link": "/tool提示",
+          "text": "工具提示"
+        }
+      ]
+    },
+    "others": {
+      "text": "其 他",
+      "children": [
+        {
+          "link": "/分隔符",
+          "text": "分隔符"
+        }
+      ]
+    }
   }
 }

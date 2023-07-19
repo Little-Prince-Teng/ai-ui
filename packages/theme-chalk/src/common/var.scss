@@ -2,11 +2,13 @@
 @use 'sass:math';
 @use 'sass:map';
 
-// @use '../mixins/function.scss' as *;
+@use '../mixins/function.scss' as *;
 
 // Special comment for theme configurator
 // type|skipAutoTranslation|Category|Order
 // skipAutoTranslation 1
+
+
 
 // types
 $types: primary, success, warning, danger, error, info;
@@ -18,19 +20,19 @@ $colors: map.deep-merge(
     'white': #ffffff,
     'black': #000000,
     'primary': (
-      'base': #409eff,
+      'base': #2e57e5,
     ),
     'success': (
-      'base': #67c23a,
+      'base': #12b881,
     ),
     'warning': (
-      'base': #e6a23c,
+      'base': #f58718,
     ),
     'danger': (
-      'base': #f56c6c,
+      'base': #e5455f,
     ),
     'error': (
-      'base': #f56c6c,
+      'base': #e5455f,
     ),
     'info': (
       'base': #909399,

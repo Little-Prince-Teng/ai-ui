@@ -1,0 +1,7 @@
+{
+	"home.guide": "guide",
+	"home.component": "component",
+	"component.button": "button",
+	"component.button.text": "this is a button",
+	"component.button.basic.useTypeText": "Use `type`"
+}

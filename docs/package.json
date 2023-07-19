@@ -3,17 +3,21 @@
   "private": true,
   "scripts": {
     "dev": "pnpm gen-locale && vitepress dev .",
-    "gen-locale": "rimraf .vitepress/i18n && tsx .vitepress/build/crowdin-generate.ts"
+    "gen-locale": "rimraf .vitepress/i18n && tsx .vitepress/build/crowdin-generate.ts",
+    "crowdin-credentials": "tsx .vitepress/build/crowdin-credentials.ts"
   },
   "devDependencies": {
     "@ai-ui/build-constants": "workspace:^",
+    "@crowdin/cli": "^3.13.0",
     "@docsearch/react": "^3.5.1",
+    "@iconify-json/ri": "^1.1.10",
     "@types/markdown-it": "^12.2.3",
     "escape-html": "^1.0.3",
     "fast-glob": "^3.3.0",
     "markdown-it-container": "^3.0.0",
     "prismjs": "^1.29.0",
     "unplugin-auto-import": "^0.16.6",
+    "unplugin-icons": "^0.16.5",
     "unplugin-vue-components": "^0.25.1",
     "vitepress": "^0.22.4",
     "vue": "^3.3.4"

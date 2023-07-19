@@ -3,7 +3,7 @@ import { define } from '../utils/types'
 // import ElementPlus from 'element-plus'
 // import 'uno.css'
 import './style.css'
-// import 'element-plus/dist/index.css'
+import 'element-plus/dist/index.css'
 import type { Theme } from 'vitepress'
 
 export default define<Theme>({

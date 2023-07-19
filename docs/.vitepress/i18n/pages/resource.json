@@ -10,5 +10,17 @@
     "sketchIntro": "Newly designed Sketch component library in 2022 with full components for Element Plus to improve design efficiency while keeping a unified visual style.",
     "figma": "Figma Template",
     "figmaIntro": "Newly designed Figma component library in 2022 with new features such as Auto-layout and Variants."
+  },
+  "zh-CN": {
+    "title": "资源",
+    "lineOne": "仍在开发更多的资源。 ",
+    "lineTwo": "如果您有兴趣参与元件的设计，请通过 <span><a href=\"mailto:element-plus@outlook.com\" target=\"_blank\">element-plus@outlook.com</a></span> 联系我们。",
+    "download": "下载",
+    "axure": "轴组件",
+    "axureIntro": "通过在 Axure 中导入元素加成，您可以轻松地应用我们在互动设计中提供的所有组件。",
+    "sketch": "草图模板",
+    "sketchIntro": "2022年新设计的草图组件库，元素加全部分，以提高设计效率，同时保持统一的视觉风格。",
+    "figma": "Figma Template",
+    "figmaIntro": "2022年新设计的图形组件库，新功能如自动布局和变量。"
   }
 }

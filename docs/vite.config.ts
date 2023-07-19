@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 import { MarkdownTransform } from './.vitepress/plugins/markdown-transform'
 import type { Alias } from 'vite'
 
@@ -21,10 +23,28 @@ export default defineConfig(() => {
 		plugins: [
 			MarkdownTransform(),
 			AutoImport({
-				resolvers: [ElementPlusResolver()]
+				resolvers: [
+					ElementPlusResolver(),
+					// 自动导入图标组件
+					IconsResolver(),
+				]
 			}),
 			Components({
-				resolvers: [ElementPlusResolver()]
+				dirs: ['.vitepress/vitepress/components'],
+
+				allowOverrides: true,
+
+				resolvers: [
+					ElementPlusResolver(),
+					// 自动注册图标组件
+					IconsResolver(),
+				],
+				
+				// allow auto import and register components used in markdown
+				include: [/\.vue$/, /\.vue\?vue/, /\.md$/]
+			}),
+			Icons({
+				autoInstall: true
 			})
 		]
 	}
