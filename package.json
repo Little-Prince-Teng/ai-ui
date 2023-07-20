@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.3.0",
+  "packageManager": "pnpm@8.6.6",
   "workspaces": [
     "packages/*",
     "play",
@@ -30,8 +30,5 @@
     "vite": "^4.3.9",
     "vite-plugin-dts": "^1.4.1",
     "vue": "^3.3.4"
-  },
-  "engines": {
-    "node": ">= 16"
   }
 }
