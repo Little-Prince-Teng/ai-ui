@@ -2,13 +2,13 @@ import path from 'path'
 import fs from 'fs/promises'
 import chalk from 'chalk'
 import consola from 'consola'
-import { docRoot } from '@ai-ui/build-utils'
+import { docRoot, errorAndExit } from '@ai-ui/build-utils'
 
 const credentialPlaceholder = 'API_TOKEN_AIUI'
 
 const CREDENTIAL = process.env.CROWDIN_TOKEN
 if (!CREDENTIAL) {
-  // errorAndExit(new Error('Environment variable CROWDIN_TOKEN cannot be empty'))
+  errorAndExit(new Error('Environment variable CROWDIN_TOKEN cannot be empty'))
 }
 
 ;(async () => {
@@ -24,6 +24,6 @@ if (!CREDENTIAL) {
     )
     consola.success(chalk.green('Crowdin credential update successfully'))
   } catch (e: any) {
-    // errorAndExit(e)
+    errorAndExit(e)
   }
 })()

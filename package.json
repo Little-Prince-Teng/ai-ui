@@ -12,11 +12,15 @@
     "docs:build": "pnpm run -C docs build",
     "docs:serve": "pnpm run -C docs serve",
     "docs:gen-locale": "pnpm run -C docs gen-locale",
-    "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials"
+    "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials",
+    "stub": "pnpm run -r --parallel stub",
+    "postinstall": "pnpm stub"
   },
   "devDependencies": {
     "@ai-ui/build-utils": "workspace:^",
     "@esbuild-kit/cjs-loader": "^2.4.2",
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/types": "^9.2.0",
     "@types/gulp": "^4.0.13",
     "@types/node": "^20.3.3",
     "@types/sass": "^1.45.0",
@@ -33,7 +37,19 @@
     "vite-plugin-dts": "^1.4.1",
     "vue": "^3.3.4"
   },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "react",
+        "react-dom"
+      ]
+    }
+  },
   "engines": {
     "node": ">= 16"
+  },
+  "dependencies": {
+    "@ai-ui/build-constants": "workspace:^"
   }
 }

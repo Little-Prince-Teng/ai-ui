@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import chalk from 'chalk'
 import consola from 'consola'
-import { docRoot } from '@ai-ui/build-utils'
+import { docRoot, errorAndExit } from '@ai-ui/build-utils'
 
 // NB: this file is only for generating files that enables developers to develop the website.
 const componentLocaleRoot = path.resolve(docRoot, '.vitepress/crowdin')
@@ -108,6 +108,6 @@ main()
     if (err.message === exists) {
       // do nothing
     } else {
-      // errorAndExit(err)
+      errorAndExit(err)
     }
   })

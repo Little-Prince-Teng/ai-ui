@@ -18,5 +18,10 @@
   },
   "devDependencies": {
     "unbuild": "^1.2.1"
+  },
+  "dependencies": {
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/logger": "^5.0.0",
+    "consola": "^3.2.3"
   }
 }
