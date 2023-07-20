@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@ai-ui/build-utils':
+        specifier: workspace:^
+        version: link:internal/build-utils
       '@types/gulp':
         specifier: ^4.0.13
         version: registry.npmmirror.com/@types/gulp@4.0.13

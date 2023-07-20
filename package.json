@@ -15,6 +15,7 @@
     "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials"
   },
   "devDependencies": {
+    "@ai-ui/build-utils": "workspace:^",
     "@types/gulp": "^4.0.13",
     "@types/node": "^20.3.3",
     "@types/sass": "^1.45.0",
