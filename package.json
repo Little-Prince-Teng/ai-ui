@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@ai-ui/build-utils": "workspace:^",
+    "@esbuild-kit/cjs-loader": "^2.4.2",
     "@types/gulp": "^4.0.13",
     "@types/node": "^20.3.3",
     "@types/sass": "^1.45.0",

@@ -11,6 +11,9 @@ importers:
       '@ai-ui/build-utils':
         specifier: workspace:^
         version: link:internal/build-utils
+      '@esbuild-kit/cjs-loader':
+        specifier: ^2.4.2
+        version: registry.npmmirror.com/@esbuild-kit/cjs-loader@2.4.2
       '@types/gulp':
         specifier: ^4.0.13
         version: registry.npmmirror.com/@types/gulp@4.0.13
