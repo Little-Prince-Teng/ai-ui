@@ -46,16 +46,16 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
 
-      - name: Init Crowdin token
-        run: pnpm run docs:crowdin-credentials
-        env:
-          CROWDIN_TOKEN: ${{secrets.CROWDIN_TOKEN}}
+      # - name: Init Crowdin token
+      #   run: pnpm run docs:crowdin-credentials
+      #   env:
+      #     CROWDIN_TOKEN: ${{secrets.CROWDIN_TOKEN}}
       
       - name: Upload source files
         run: cd docs && pnpm exec crowdin upload sources
 
       - name: Pull Crowdin translations
-        run: cd docs && pnpm exec crowdin download -l zh-CN && pnpm exec crowdin download -l es-ES
+        run: cd docs && pnpm exec crowdin download -l zh-CN
 
       - name: Generate common locale
         run: pnpm docs:gen-locale
